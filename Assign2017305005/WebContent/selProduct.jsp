@@ -1,3 +1,11 @@
+<%-- /******************************/
+/* 학번 : 2017305005           */
+/* 성명 : 권세희                 */
+/* 작성일 : 2021. 04. 04          */
+/* 파일명 : selProduct.jsp  */
+/* 내용 : 장바구니 - 총 합계 구하기    */
+/******************************/ --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,11 +26,11 @@
 <hr>
 <form name="form1" method="post" action="add.jsp">
 <select name="product">
-<option value=1>사과</option>
-<option value=2>귤</option>
-<option value=3>파인애플</option>
-<option value=4>자몽</option>
-<option value=5>레몬</option>
+<option>사과</option>
+<option>귤</option>
+<option>파인애플</option>
+<option>자몽</option>
+<option>레몬</option>
 </select>
 <input type="submit" value="추가" />
 </form>
@@ -30,3 +38,4 @@
 </center>
 </body>
 </html>
+
